@@ -1,0 +1,14 @@
+{
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.overtypeCursorStyle": "line",
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.insertSpaces": false,
+    "terminal.integrated.altClickMovesCursor": false,
+    "terminal.integrated.cursorStyle": "line",
+    "editor.cursorStyle": "line",
+    "search.seedWithNearestWord": false,
+    "editor.suggest.localityBonus": false,
+    "editor.inlineSuggest.edits.experimental.onlyShowWhenCloseToCursor": true,
+    "editor.cursorSurroundingLinesStyle": "default"
+}
