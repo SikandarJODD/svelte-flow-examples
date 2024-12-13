@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { writable } from "svelte/store";
   import {
     SvelteFlow,
@@ -6,6 +6,7 @@
     Background,
     BackgroundVariant,
     MiniMap,
+    type Node,
   } from "@xyflow/svelte";
   // for light and dark mode using mode-watcher
   import { mode } from "mode-watcher";
@@ -14,12 +15,13 @@
   import "@xyflow/svelte/dist/style.css";
 
   // We are using writables for the nodes and edges to sync them easily. When a user drags a node for example, Svelte Flow updates its position.
-  let nodes = writable([
+  let nodes = writable<Node[]>([
     {
       id: "1",
       type: "default",
       data: { label: "Simple Node" },
       position: { x: -100, y: 0 },
+      deletable: true,
     },
     {
       id: "2",

@@ -33,36 +33,28 @@
           url: "/flows/nodes/updating-nodes",
         },
         {
-          name: "Stress Test",
-          url: "/flows/nodes/stress-test",
-        },
-        {
-          name: "Drag Handle",
-          url: "/flows/nodes/drag-handle",
-        },
-        {
           name: "Add Node on edge drop",
-          url: "/flows/nodes/custom-nodes",
+          url: "/flows/nodes/add-node-on-edge-drop",
         },
         {
           name: "proximity connect",
-          url: "/flows/nodes/custom-nodes",
+          url: "/flows/nodes/proximity-connect",
         },
         {
           name: "node resizer",
-          url: "/flows/nodes/custom-nodes",
+          url: "/flows/nodes/node-resizer",
         },
         {
           name: "easy connect",
-          url: "/flows/nodes/custom-nodes",
+          url: "/flows/nodes/easy-connect",
         },
         {
           name: "connection limit",
-          url: "/flows/nodes/custom-nodes",
+          url: "/flows/nodes/connection-limit",
         },
         {
           name: "intersections",
-          url: "/flows/nodes/custom-nodes",
+          url: "/flows/nodes/intersections",
         },
       ],
     },
